@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "project": "slick_bug.kicad_pro",
+  "current": "2026-08-25_2304",
+  "runs": {
+    "2026-08-25_2247": {
+      "source_hashes": {
+        "slick_bug.kicad_sch": "sha256:39d7ebdd76ff057be08f38849a532d6f051f4031f2b0dac12244528663cca90e",
+        "slick_bug.kicad_pcb": "sha256:06771e65ae6f6d9d279603e97cffb5fa96a07dbf6ee69ecc1eb41ea130f03651",
+        "schematic.json": "sha256:003bc2d9290c81527ce89eab9675518e95f13da28857a4b5b098588c7a163f20",
+        "pcb.json": "sha256:504c65d57e53a5d242a5a1ce6cd037b915da3da48794fc39724a36b3a11d3b07"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json",
+        "thermal": "thermal.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py slick_bug.kicad_sch"
+      },
+      "generated": "2026-08-25T22:48:45+01:00",
+      "pinned": false
+    },
+    "2026-08-25_2302": {
+      "source_hashes": {
+        "slick_bug.kicad_sch": "sha256:7fbbf4cf1ba83ef6687f99a789c06fca961dddc8deca6713c462eaaaf4d11fae"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json",
+        "thermal": "thermal.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py slick_bug.kicad_sch"
+      },
+      "generated": "2026-08-25T23:02:52+01:00",
+      "pinned": false
+    },
+    "2026-08-25_2304": {
+      "source_hashes": {
+        "slick_bug.kicad_sch": "sha256:251cb592e62bf4d231f078a8ba5282810b5bb63a1628904a71bc0895841d71fe"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json",
+        "thermal": "thermal.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py slick_bug.kicad_sch"
+      },
+      "generated": "2026-08-25T23:04:49+01:00",
+      "pinned": false
+    }
+  }
+}
