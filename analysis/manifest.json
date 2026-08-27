@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project": "slick_bug.kicad_pro",
-  "current": "2026-08-25_2304",
+  "current": "2026-08-26_2224",
   "runs": {
     "2026-08-25_2247": {
       "source_hashes": {
@@ -55,6 +55,40 @@
         "schematic": "analyze_schematic.py slick_bug.kicad_sch"
       },
       "generated": "2026-08-25T23:04:49+01:00",
+      "pinned": false
+    },
+    "2026-08-26_2223": {
+      "source_hashes": {
+        "slick_bug.kicad_sch": "sha256:6513d4fb71f4e8900d3b41efde4041a3391f8eda874e9380e8e9a9f9542cdaa2"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json",
+        "thermal": "thermal.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py slick_bug.kicad_sch"
+      },
+      "generated": "2026-08-26T22:23:35+01:00",
+      "pinned": false
+    },
+    "2026-08-26_2224": {
+      "source_hashes": {
+        "slick_bug.kicad_sch": "sha256:4dc46aaf0af12c445c229af6303725950b24871b8ea51bff0aa78eb016ac0ed4"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json",
+        "thermal": "thermal.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py slick_bug.kicad_sch"
+      },
+      "generated": "2026-08-26T22:24:50+01:00",
       "pinned": false
     }
   }
