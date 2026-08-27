@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project": "slick_bug.kicad_pro",
-  "current": "2026-08-26_2224",
+  "current": "2026-08-27_2103-3",
   "runs": {
     "2026-08-25_2247": {
       "source_hashes": {
@@ -89,6 +89,58 @@
         "schematic": "analyze_schematic.py slick_bug.kicad_sch"
       },
       "generated": "2026-08-26T22:24:50+01:00",
+      "pinned": false
+    },
+    "2026-08-27_2103": {
+      "source_hashes": {
+        "slick_bug.kicad_sch": "sha256:420707693b24dfef9fc8057d5cead8bcefed93326f5e2fa697d41bfde2fdb97a"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json",
+        "thermal": "thermal.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py slick_bug.kicad_sch"
+      },
+      "generated": "2026-08-27T21:03:30+01:00",
+      "pinned": false
+    },
+    "2026-08-27_2103-2": {
+      "source_hashes": {
+        "slick_bug.kicad_pcb": "sha256:5d720724cd15290c377e70b48586914a346f71efba4463230d7278315bf646f1"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json",
+        "thermal": "thermal.json"
+      },
+      "scripts": {
+        "pcb": "analyze_pcb.py slick_bug.kicad_pcb"
+      },
+      "generated": "2026-08-27T21:03:41+01:00",
+      "pinned": false
+    },
+    "2026-08-27_2103-3": {
+      "source_hashes": {
+        "schematic.json": "sha256:10d3bb40aa520a1ded078cddae6f4829092e6787ce602d972c53628f60d8faca",
+        "pcb.json": "sha256:5e21d3d367ea96e5ed332a0c356f51408569cc88bed1e26b5b94db6be32e6883"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json",
+        "thermal": "thermal.json"
+      },
+      "scripts": {
+        "emc": "analyze_emc.py"
+      },
+      "generated": "2026-08-27T21:03:41+01:00",
       "pinned": false
     }
   }
