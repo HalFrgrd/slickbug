@@ -1,3 +1,6 @@
 [submodule "hardware/kicad_assets"]
 	path = hardware/kicad_assets
 	url = git@github.com:HalFrgrd/kicad_assets
+[submodule "firmware/debugprobe"]
+	path = firmware/debugprobe
+	url = git@github.com:raspberrypi/debugprobe.git
