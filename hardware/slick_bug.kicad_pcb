@@ -780,6 +780,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Seeed_Studio_XIAO_Series:XIAO-RP2040-SMD"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "e5fdfd17-05db-44d1-80b5-2a38e6c5169e")
 		(at 81.714 81.5105)
@@ -2357,6 +2358,7 @@
 		)
 	)
 	(footprint "halfr:R50_horizontal_4pin"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "be9e8682-2b32-4728-829d-1859df994606")
 		(at 90.8 72.238 180)
@@ -2400,7 +2402,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2418,13 +2420,7 @@
 		(path "/930c904d-a2ae-4486-8b24-94fadfc32063")
 		(sheetname "/")
 		(sheetfile "slick_bug.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.27 5.969)
@@ -2527,44 +2523,36 @@
 			)
 		)
 		(pad "" thru_hole roundrect
-			(at -3.8 -8.636 180)
-			(size 4 3)
-			(drill oval 4.6 1.6
-				(offset -0.3 0)
-			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.08333333333)
-			(uuid "f37da1b7-27ec-42a3-a3c6-6e392cdbc964")
-		)
-		(pad "" thru_hole roundrect
-			(at -3.8 -0.762 180)
-			(size 4 3)
-			(drill oval 4.6 1.6
-				(offset -0.3 0)
-			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.08333333333)
-			(uuid "e56028c2-06f9-4d05-af55-f76ad4f8207d")
-		)
-		(pad "" thru_hole roundrect
-			(at 3.8 -8.636 180)
-			(size 4 3)
-			(drill oval 4.6 1.6
-				(offset 0.3 0)
-			)
+			(at -3.8 -8.65 180)
+			(size 2.4 3)
+			(drill oval 3.95 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.08333333333)
 			(uuid "c1996ccc-d4de-487b-9baa-7339b0fea37d")
 		)
 		(pad "" thru_hole roundrect
+			(at -3.8 -0.762 180)
+			(size 2.4 3)
+			(drill oval 3.95 1.6)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.08333333333)
+			(uuid "e56028c2-06f9-4d05-af55-f76ad4f8207d")
+		)
+		(pad "" thru_hole roundrect
+			(at 3.8 -8.65 180)
+			(size 2.4 3)
+			(drill oval 3.95 1.6)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.08333333333)
+			(uuid "f37da1b7-27ec-42a3-a3c6-6e392cdbc964")
+		)
+		(pad "" thru_hole roundrect
 			(at 3.8 -0.762 180)
-			(size 4 3)
-			(drill oval 4.6 1.6
-				(offset 0.3 0)
-			)
+			(size 2.4 3)
+			(drill oval 3.95 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.08333333333)
@@ -3377,6 +3365,7 @@
 		)
 	)
 	(footprint "halfr:Harwin_M20-89004xx_1x04_P2.54mm_Horizontal_blank"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "ff4312d5-3787-4ff9-945a-4bdeab2b2218")
 		(at 80.2 65.7 180)
@@ -3386,7 +3375,7 @@
 			(at -7.55 1.45 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "c7e3371c-f167-42f4-afb9-c104bb3d6b2c")
+			(uuid "46475135-b1f8-4257-8285-44846cb7c782")
 			(effects
 				(font
 					(size 1 1)
@@ -3398,7 +3387,7 @@
 		(property "Value" "Conn_01x04_Socket"
 			(at -0.48 -6.28 0)
 			(layer "B.Fab")
-			(uuid "74ccfe48-15c8-468a-a349-dc4d97f64590")
+			(uuid "a0e09448-71bc-43c2-8b80-ae68b7c5dfd5")
 			(effects
 				(font
 					(size 1 1)
@@ -3411,7 +3400,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f710a72a-009c-4fdd-aff4-1c60fa7a7417")
+			(uuid "ef30ed1d-2f43-4fe2-98d6-0e41480984bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,7 +3412,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c2952ba3-bc76-4e18-afd7-67e5f2b41b11")
+			(uuid "e9817122-7df6-46e9-bbd5-b428dd3e2fa4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,47 +3947,8 @@
 		(layer "Edge.Cuts")
 		(uuid "0f88d03b-4e0e-4588-83bf-59e32bb52177")
 	)
-	(gr_text "CLK"
-		(at 84.25 65.15 0)
-		(layer "B.SilkS" knockout)
-		(uuid "1e0e70e2-7251-4eb8-bd4c-26960d014f07")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "3V3"
-		(at 84.25 70.25 0)
-		(layer "B.SilkS" knockout)
-		(uuid "916b2749-c2b2-4d1b-b674-ebec441c722f")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "GND"
-		(at 84.4 62.75 0)
-		(layer "B.SilkS" knockout)
-		(uuid "f221f270-29d1-4fd5-867e-4c7982214b8f")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
 	(gr_text "DIO"
-		(at 84.4 67.75 0)
+		(at 80.37 63.73 180)
 		(layer "B.SilkS" knockout)
 		(uuid "65f3fd47-67f9-4410-a9db-40b4803f16a4")
 		(effects
@@ -4010,8 +3960,47 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "SLICKBUG V1"
-		(at 99.75 69.25 90)
+	(gr_text "GND"
+		(at 80.37 68.73 180)
+		(layer "B.SilkS" knockout)
+		(uuid "f221f270-29d1-4fd5-867e-4c7982214b8f")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "3V3"
+		(at 80.52 61.23 180)
+		(layer "B.SilkS" knockout)
+		(uuid "916b2749-c2b2-4d1b-b674-ebec441c722f")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "CLK"
+		(at 80.52 66.33 180)
+		(layer "B.SilkS" knockout)
+		(uuid "1e0e70e2-7251-4eb8-bd4c-26960d014f07")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SLICKBUG V2"
+		(at 97.94 82.35 270)
 		(layer "B.SilkS" knockout)
 		(uuid "ae72064a-2a40-4622-bd8e-55a4e069991c")
 		(effects
