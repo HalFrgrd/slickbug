@@ -41,7 +41,7 @@
 
             # Debugging tools
             openocd
-            probe-rs
+            probe-rs-tools
             gdb
             clang-tools
             git
