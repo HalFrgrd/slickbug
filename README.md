@@ -18,3 +18,8 @@ This seems common.
 
 ### Parts
 
+
+### Building the firmware
+1. `nix develop`
+2. `./firmware/build-xiao.sh`
+3. Put XIAO RP2040 into BOOTSEL mode (hold BOOT, tap RESET, release BOOT)
