@@ -15,18 +15,21 @@ P50 test probes sit in the R50 receptacles.  The GND pin extends 1.5mm further s
 
 ## Target footprint
 
-The target footprint is 4 pads with pitch 1.27mm. The pin order:
-1. GND
-2. SWCLK
-3. SWDIO
-4. VCC (3V3)
+The target footprint is 4 pads with pitch 1.27mm:
+
+| ![assets/v1_pcb_layout_footprint.png](assets/v1_pcb_layout_footprint.png) | ![Target footprint next to keyswitch](assets/v1_next_to_keyswitch.png) |
+| :---: | :---: |
+| PCB footprint | Target footprint next to a MX keyswitch |
+
+
+### Installing the target footprint
 
 A standalone KiCad library containing only the target symbol and footprint is located in [`hardware/slick_bug_target/`](hardware/slick_bug_target/)
 
 Add it to your KiCad project with:
 1. Copy [`hardware/slick_bug_target/`](hardware/slick_bug_target/) into your project (or add this repo as a submodule).
-2. Register the Footprint Library: In KiCad, go to Preferences->Manage Footprint Libraries, click the folder icon, and select [`hardware/slick_bug_target/slick_bug_target.pretty`](hardware/slick_bug_target/slick_bug_target.pretty)
-3. Register the Symbol Library: Go to Preferences->Manage Symbol Libraries, add [`hardware/slick_bug_target/slick_bug_target.kicad_sym`](hardware/slick_bug_target/slick_bug_target.kicad_sym)
+2. Register the `Footprint Library`: Go to `Preferences->Manage Footprint Libraries`, click the folder icon, and select [`hardware/slick_bug_target/slick_bug_target.pretty`](hardware/slick_bug_target/slick_bug_target.pretty)
+3. Register the `Symbol Library`: Go to `Preferences->Manage Symbol Libraries`, add [`hardware/slick_bug_target/slick_bug_target.kicad_sym`](hardware/slick_bug_target/slick_bug_target.kicad_sym)
 4. Place `slick_bug_target:Conn_SWD_SlickBug_V1` in your schematic. It already has `slick_bug_target:SlickBug_Target_V1` pre-assigned as its footprint.
 
 
@@ -38,10 +41,11 @@ You can get the [components](hardware/production/bom.csv) from LCSC and combine 
 
 You will need to snap off the combs from the pcb to hold the R50 receptacles in place.
 
-<p align="center">
-  <img src="assets/slickbug_v1_pcb.jpg" alt="SlickBug pcb" width="45%" />
-  <img src="assets/slickbug_v1_assembling.jpg" alt="SlickBug assembling" width="45%" />
-</p>
+
+| ![SlickBug v1 pcb](assets/slickbug_v1_pcb.jpg) | ![SlickBug v1 part assembled](assets/slickbug_v1_assembling.jpg) |
+| :---: | :---: |
+| SlickBug PCB | Partly assembled |
+
 
 
 ### Firmware
