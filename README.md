@@ -44,7 +44,9 @@ You will need to snap off the combs from the pcb to hold the R50 receptacles in 
 </p>
 
 
-### Building the firmware
+### Firmware
+Put the XIAO RP2040 into BOOTSEL mode (hold `B`, tap `R`, release `B`) and copy [`firmware/debugprobe_on_xiao_rp2040.uf2`](firmware/debugprobe_on_xiao_rp2040.uf2) onto the `RPI-RP2` drive.
+
+To build from source instead:
 1. `nix develop`
 2. `./firmware/build-xiao.sh`
-3. Put XIAO RP2040 into BOOTSEL mode (hold BOOT, tap RESET, release BOOT)
