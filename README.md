@@ -1,11 +1,16 @@
 
+# SlickBug
 
-Four pins of 1.27mm pitch.
-R50 receptacles held in place with 2 PCB combs.
-The combs break off the circuit board.
-Use P50 test probes.
-The GND pin extends 1.5mm further.
+A small SWD programmer using the Seeed Studio XIAO RP2040.
+I wanted a compact debugger with a tiny target footprint.
 
+It uses 4 P50 test pins which are mounted on the back of the PCB.
+The test pins sit in R50 receptacles which are held in place with 2 PCB "combs".
+The GND pin extends 1.5mm further so that GND connects first.
+
+![SlickBug assembled](assets/slickbug_v1_bottom.jpg)
+![SlickBug assembled](assets/slickbug_v1_top.jpg)
+![SlickBug in action](assets/slickbug_v1_in_action.jpg)
 
 ### Pin order
 1. GND
@@ -13,10 +18,9 @@ The GND pin extends 1.5mm further.
 3. SWDIO
 4. VCC (3V3)
 
-This seems common.
 
+### Assembly
 
-### Parts
 
 
 ### Building the firmware
