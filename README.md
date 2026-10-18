@@ -2,7 +2,7 @@
 # SlickBug
 
 A small SWD programmer using the Seeed Studio XIAO RP2040.
-I wanted a compact debugger with a tiny target footprint.
+I wanted a compact debugger with a tiny target footprint (roughly 4.8mm by 1.1mm).
 
 It uses four R50 test probe receptacles which are mounted on the back of the PCB and are held in place using two PCB "combs".
 P50 test probes sit in the R50 receptacles.  The GND pin extends 1.5mm further so that GND connects first.
@@ -17,9 +17,9 @@ P50 test probes sit in the R50 receptacles.  The GND pin extends 1.5mm further s
 
 The target footprint is 4 pads with pitch 1.27mm:
 
-| ![assets/v1_pcb_layout_footprint.png](assets/v1_pcb_layout_footprint.png) | ![Target footprint next to keyswitch](assets/v1_next_to_keyswitch.png) |
-| :---: | :---: |
-| PCB footprint | Target footprint next to a MX keyswitch |
+| ![Footprint with guiding hole](assets/v1_pcb_layout_footprint.png) | ![SMD footprint](assets/v1_pcb_layout_footprint_smd.png)  | ![Target footprint next to keyswitch](assets/v1_next_to_keyswitch.png) |
+| :---: | :---: | :---: |
+| PCB footprint with guiding hole | PCB footprint SMD only | Target footprint next to a MX keyswitch |
 
 
 ### Installing the target footprint
