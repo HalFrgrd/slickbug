@@ -87,7 +87,7 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "halfr:R50_pcb_comb"
+	(footprint "slick_bug:R50_pcb_comb"
 		(layer "F.Cu")
 		(uuid "6eb88056-6841-40cf-919b-f7d745fd828d")
 		(at 90.75 84.8 180)
@@ -433,7 +433,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "halfr:R50_pcb_comb"
+	(footprint "slick_bug:R50_pcb_comb"
 		(layer "F.Cu")
 		(uuid "7d283c07-4f10-4f60-81bc-4f08f7148c6f")
 		(at 90.75 58.1936)
@@ -779,7 +779,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Seeed_Studio_XIAO_Series:XIAO-RP2040-SMD"
+	(footprint "slick_bug:XIAO-RP2040-SMD"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "e5fdfd17-05db-44d1-80b5-2a38e6c5169e")
@@ -1204,7 +1204,7 @@
 			(uuid "dd84d8ef-1557-4d38-907d-0211aefe6f15")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/kicad_assets/halfr.3dshapes/Seeed Studio XIAO RP2040.step"
+		(model "${KIPRJMOD}/lib/slick_bug.3dshapes/Seeed Studio XIAO RP2040.step"
 			(offset
 				(xyz 8.9 10.05 0)
 			)
@@ -1649,7 +1649,7 @@
 			)
 		)
 	)
-	(footprint "easyeda:SOT-23-5_L3.0-W1.6-P0.95-LS2.8-BR"
+	(footprint "slick_bug:SOT-23-5_L3.0-W1.6-P0.95-LS2.8-BR"
 		(layer "B.Cu")
 		(uuid "0f4b2e25-541e-465d-b97f-81b38205cc7c")
 		(at 98.5 67.25 180)
@@ -1954,7 +1954,7 @@
 			(uuid "9a416376-b311-42a8-aa76-eef99264e5e4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/kicad_assets/easyeda.3dshapes/SOT-23-5_L3.0-W1.6-P0.95-LS2.8-BR.step"
+		(model "${KIPRJMOD}/lib/slick_bug.3dshapes/SOT-23-5_L3.0-W1.6-P0.95-LS2.8-BR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2357,7 +2357,7 @@
 			)
 		)
 	)
-	(footprint "halfr:R50_horizontal_4pin"
+	(footprint "slick_bug:R50_horizontal_4pin"
 		(locked yes)
 		(layer "B.Cu")
 		(uuid "be9e8682-2b32-4728-829d-1859df994606")
@@ -2601,7 +2601,7 @@
 			(uuid "8e0f4329-8542-4e51-9095-f699d258e4b6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/kicad_assets/halfr.3dshapes/R50-2C_Main.step"
+		(model "${KIPRJMOD}/lib/slick_bug.3dshapes/R50-2C_Main.step"
 			(offset
 				(xyz -1.9 0.5 0.45)
 			)
@@ -2612,7 +2612,7 @@
 				(xyz 90 -0 -180)
 			)
 		)
-		(model "${KIPRJMOD}/kicad_assets/halfr.3dshapes/R50-2C_Main.step"
+		(model "${KIPRJMOD}/lib/slick_bug.3dshapes/R50-2C_Main.step"
 			(offset
 				(xyz -0.63 2 0.45)
 			)
@@ -2623,7 +2623,7 @@
 				(xyz -0 90 -90)
 			)
 		)
-		(model "${KIPRJMOD}/kicad_assets/halfr.3dshapes/R50-2C_Main.step"
+		(model "${KIPRJMOD}/lib/slick_bug.3dshapes/R50-2C_Main.step"
 			(offset
 				(xyz 0.63 2 0.45)
 			)
@@ -2634,7 +2634,7 @@
 				(xyz -0 90 -90)
 			)
 		)
-		(model "${KIPRJMOD}/kicad_assets/halfr.3dshapes/R50-2C_Main.step"
+		(model "${KIPRJMOD}/lib/slick_bug.3dshapes/R50-2C_Main.step"
 			(offset
 				(xyz 1.9 2 0.45)
 			)
@@ -2645,7 +2645,7 @@
 				(xyz -0 90 -90)
 			)
 		)
-		(model "${KIPRJMOD}/kicad_assets/halfr.3dshapes/R50_pcb_comb_Main(1).step"
+		(model "${KIPRJMOD}/lib/slick_bug.3dshapes/R50_pcb_comb_Main(1).step"
 			(offset
 				(xyz 29.3 0 -1)
 			)
@@ -2657,7 +2657,7 @@
 			)
 		)
 	)
-	(footprint "easyeda:F0805"
+	(footprint "slick_bug:F0805"
 		(layer "B.Cu")
 		(uuid "ef1bd24a-1dea-43de-9bee-4eab5d3348a4")
 		(at 95 62.25)
@@ -2925,7 +2925,7 @@
 			(uuid "09591c50-cf4c-4a19-a990-0fe399aa7760")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/kicad_assets/easyeda.3dshapes/F0805_L2.1-W1.4-H0.8.step"
+		(model "${KIPRJMOD}/lib/slick_bug.3dshapes/F0805_L2.1-W1.4-H0.8.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3370,7 +3370,7 @@
 			)
 		)
 	)
-	(footprint "halfr:Harwin_M20-89004xx_1x04_P2.54mm_Horizontal_blank"
+	(footprint "slick_bug:Harwin_M20-89004xx_1x04_P2.54mm_Horizontal_blank"
 		(locked yes)
 		(layer "B.Cu")
 		(uuid "ff4312d5-3787-4ff9-945a-4bdeab2b2218")
@@ -3817,7 +3817,7 @@
 			(uuid "8f0d934d-e9ef-417f-9949-44eefcbeff77")
 		)
 		(embedded_fonts no)
-		(model "${LOCAL_ASSETS}/halfr.3dshapes/m20-89004xx_asm.stp"
+		(model "${KIPRJMOD}/lib/slick_bug.3dshapes/m20-89004xx_asm.stp"
 			(offset
 				(xyz 0.5 -6.35 1.5)
 			)

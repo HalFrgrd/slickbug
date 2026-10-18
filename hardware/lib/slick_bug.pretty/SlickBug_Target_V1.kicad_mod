@@ -1,0 +1,214 @@
+(footprint "SlickBug_Target_V1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf")
+	(tags "tag connect programming header pogo pins")
+	(property "Reference" "REF**"
+		(at 0 1.651 0)
+		(layer "Dwgs.User")
+		(uuid "17ac8ed2-f17e-46eb-ac46-65f5b9c924c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SlickBug_Target_V1"
+		(at 0 -2.3 0)
+		(layer "F.Fab")
+		(uuid "c1d81e39-2e77-4a1f-8d81-99e05c6c4a58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87d72006-03cd-436d-b200-2f0cbfc6dc38")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4786065-5fcb-42b5-83ba-85aecb9d2988")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.52 -0.611)
+		(end -1.27 0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "08030275-7099-41eb-8f46-3a19ea504312")
+	)
+	(fp_line
+		(start -2.794 -1.016)
+		(end 2.794 -1.016)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b92eeb72-3caf-4e5c-a0bd-5daaef24547a")
+	)
+	(fp_line
+		(start -2.794 1.016)
+		(end -2.794 -1.016)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "82075cba-1c7f-4d13-8342-425fafe60f4f")
+	)
+	(fp_line
+		(start 2.794 -1.016)
+		(end 2.794 1.016)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a59603e6-a8c0-4160-ab58-82b4efcab380")
+	)
+	(fp_line
+		(start 2.794 1.016)
+		(end -2.794 1.016)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd9a661d-a041-4efe-a031-09561e178aa0")
+	)
+	(fp_text user "GND"
+		(at -1.27 -0.508 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8e8e896e-2edf-420b-9ef0-8f19e4f36bba")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "CLK"
+		(at 0 -0.508 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5f862bb7-5617-414d-96f7-1f1b9e306372")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "DIO"
+		(at 1.27 -0.508 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2bf7cc84-6a19-4274-9c47-b54ed395b48a")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "3V3"
+		(at 2.54 -0.508 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "69705813-1421-4479-81c6-b72705ce4d90")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "KEEPOUT"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(uuid "92f92ff2-5065-4a01-a08a-31190099fa01")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.07)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "709cce4e-945f-4dd2-8f51-4ab6eea067e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.905 0)
+		(size 0.9 0.9)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "12639d93-cea1-4b34-9d6d-9de7e77f1a58")
+	)
+	(pad "2" smd circle
+		(at -0.635 0)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "3e60faa2-0c18-4b1d-97e4-d6d866f88bcf")
+	)
+	(pad "3" smd circle
+		(at 0.635 0)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4e060908-304d-46fc-892a-fecf8ec11baa")
+	)
+	(pad "4" smd circle
+		(at 1.905 0)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "7301d2b4-8f62-4906-93fc-83a5b211bd25")
+	)
+	(embedded_fonts no)
+)
