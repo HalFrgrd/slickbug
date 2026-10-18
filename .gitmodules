@@ -1,6 +1,0 @@
-[submodule "firmware/debugprobe"]
-	path = firmware/debugprobe
-	url = https://github.com/HalFrgrd/debugprobe.git
-[submodule "firmware/pico-sdk"]
-	path = firmware/pico-sdk
-	url = https://github.com/raspberrypi/pico-sdk.git

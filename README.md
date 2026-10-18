@@ -45,8 +45,8 @@ You will need to snap off the combs from the pcb to hold the R50 receptacles in 
 
 
 ### Firmware
-Put the XIAO RP2040 into BOOTSEL mode (hold `B`, tap `R`, release `B`) and copy [`firmware/debugprobe_on_xiao_rp2040.uf2`](firmware/debugprobe_on_xiao_rp2040.uf2) onto the `RPI-RP2` drive.
 
-To build from source instead:
-1. `nix develop`
-2. `./firmware/build-xiao.sh`
+SlickBug uses the same SWD GPIO pins (`GPIO 2` = SWCLK, `GPIO 3` = SWDIO) as a Raspberry Pi Pico, so it runs the unmodified official [**`debugprobe_on_pico.uf2`**](https://github.com/raspberrypi/debugprobe/releases/latest) firmware (also included in [`firmware/debugprobe_on_pico.uf2`](firmware/debugprobe_on_pico.uf2)):
+
+1. Put the XIAO RP2040 into BOOTSEL mode (hold **`B`**, tap **`R`**, release **`B`**).
+2. Copy [`firmware/debugprobe_on_pico.uf2`](firmware/debugprobe_on_pico.uf2) onto the `RPI-RP2` drive.
